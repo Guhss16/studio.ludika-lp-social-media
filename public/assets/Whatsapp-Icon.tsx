@@ -1,22 +1,20 @@
 type WhatsappIconProps = {
-  width?: number;
-  height?: number;
+  size?: number;
+  className?: string;
   circleColor?: string;
   iconColor?: string;
-  className?: string;
 };
 
 export default function WhatsappIcon({
-  width = 39,
-  height = 39,
+  size = 39,
+  className = "",
   circleColor = "#D9D9D9",
   iconColor = "#141414",
-  className = "",
 }: WhatsappIconProps) {
   return (
     <svg
-      width={width}
-      height={height}
+      width={size}
+      height={size}
       viewBox="0 0 39 39"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
