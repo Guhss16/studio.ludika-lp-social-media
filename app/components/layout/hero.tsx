@@ -1,12 +1,11 @@
-import Image from "next/image";
 import IconLudikaBorda from "@/public/assets/LogoLudikaBorda";
 import SocialMedias from "../ui/socialMedia";
-import Chaveiros from "@/public/assets/ChaveirosLudika.png";
+import Chaveiros from "./chaveiros";
 
 export default function HeroSection() {
   return (
     <div
-      className="flex flex-col bg-white p-[20px] rounded-[15px] pb-[100px]
+      className="flex flex-col bg-white p-[20px] rounded-[15px] pb-[120px] marginPadrao
       shadow-[inset_0px_-80px_40px_-40px_rgba(254,242,0,0.3),_0px_4px_105px_0px_#E82682]"
     >
       {/*HEADER*/}
@@ -31,13 +30,8 @@ export default function HeroSection() {
           <br /> COM A LUDIKA
         </button>
         <SocialMedias circleColor="#383D38" iconColor="#ffffff" size={50} />
-        <Image
-          src={Chaveiros}
-          alt="Chaveiros da Ludika"
-          className="absolute left-1/2 -translate-x-1/2 bottom-[-230] w-[120%] h-auto max-w-none"
-          priority
-        />
       </div>
+      <Chaveiros />
     </div>
   );
 }
