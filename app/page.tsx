@@ -1,9 +1,15 @@
 import HeroSection from "./components/layout/hero";
+import OcupandoEspaco from "./components/layout/ocupandoespaco";
+import Comunicacao from "./components/layout/comunicacao";
+import SocialMedias from "./components/layout/socialMedia";
 
 export default function Home() {
   return (
-    <div className="px-[20px] py-[40px]">
+    <div className="py-[40px]">
       <HeroSection />
+      <OcupandoEspaco />
+      <Comunicacao />
+      <SocialMedias />
     </div>
   );
 }
