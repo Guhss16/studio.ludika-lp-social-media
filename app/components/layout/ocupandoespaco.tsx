@@ -1,6 +1,6 @@
 export default function OcupandoEspaco() {
   return (
-    <div className="mt-[200px] text-white fonteTijolo text-center text-[18px] leading-[27px] flex flex-col gap-[40px]">
+    <div className="mt-[200px] overflow-x-hidden text-white fonteTijolo text-center text-[18px] leading-[27px] flex flex-col gap-[40px] pb-4">
       <h2 className="text-[34px] marginPadrao">
         Sua comunicação está{" "}
         <span className="text-[#EE2682]">gerando resultados</span> ou apenas
@@ -23,7 +23,7 @@ export default function OcupandoEspaco() {
         marca perde relevância e oportunidades.
       </p>
 
-      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3">
+      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] ml-[-30px]">
         <p className="text-white text-[20px] underline">
           A boa notícia é que isso pode mudar.
         </p>
