@@ -13,6 +13,17 @@ body {
   background-attachment: fixed;
 }
 
+/*PALETA DE CORES*/
+@theme {
+  --color-rosaPrincipal: #ee2682;
+  --color-amareloPrincipal: #fef120;
+  --font-swanky: "Swanky and Moo Moo", cursive;
+}
+:root {
+  --color-rosaPrincipal: #ee2682;
+  --color-amareloPrincipal: #fef120;
+}
+
 /* ---------------- TIJOLO ---------------- */
 @font-face {
   font-family: "Tijolo";
@@ -273,4 +284,20 @@ body {
   .ag-panel__media {
     will-change: auto;
   }
+}
+
+/*SOCIALMEDIA*/
+.servicoAmarelo {
+  background-color: var(--color-amareloPrincipal);
+  color: black;
+  padding: 0.5rem;
+  z-index: 2;
+  border-top: #060010 2px solid;
+  border-bottom: #060010 2px solid;
+}
+.servicoRosa {
+  background-color: var(--color-rosaPrincipal);
+  color: white;
+  padding: 0.5rem;
+  z-index: 1;
 }
