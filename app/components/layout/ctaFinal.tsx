@@ -32,7 +32,7 @@ export default function CTAFinal() {
             <span className=" underline decoration-2">Conversar</span> ?
           </span>
         </h2>
-        <p className="text-white fonteTijolo font-light text-[18px]">
+        <p className="text-white fonteTijolo font-light text-xl">
           Grandes resultados costumam começar com uma boa estratégia. Se você
           quer fortalecer sua marca, engajar sua equipe ou desenvolver uma
           comunicação mais eficiente, a Ludika está pronta para dar o primeiro

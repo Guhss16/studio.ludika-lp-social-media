@@ -1,6 +1,6 @@
 export default function OcupandoEspaco() {
   return (
-    <div className="mt-[200px] overflow-x-hidden text-white fonteTijolo text-center text-[18px] leading-[27px] flex flex-col gap-[40px] pb-4">
+    <div className="mt-[200px] overflow-x-hidden text-white fonteTijolo text-center text-xl leading-[27px] flex flex-col gap-[40px] pb-4">
       <h2 className="text-[34px] marginPadrao">
         Sua comunicação está{" "}
         <span className="text-[#EE2682]">gerando resultados</span> ou apenas
