@@ -1,12 +1,25 @@
+import AnimacaoEntrada from "@/app/animations/animacaoDeEntrada";
 import Image from "next/image";
 import FitaSM from "@/public/assets/FitaSocialMedia.png";
-import FitaCDI from "@/public/assets/FitaCDI.png";
-import AnimacaoEntrada from "@/app/animations/animacaoDeEntrada";
-import { Slider } from "../ui/image-auto-slider";
 
-export default function SocialMedias() {
+export default function SocialMedia() {
   return (
-    <div className="flex flex-col justify-center overflow-hidden gap-[20px]">
+    <div className="mt-[80px] text-center">
+      <div className="flex flex-col gap-[30px] marginPadrao">
+        <p className="text-center">
+          <span className="bg-black text-white box-decoration-clone px-4 py-2 text-[30px] fonteTijolo font-semibold">
+            COMUNICAÇÃO COM ESTRATÉGIA DO
+            <br />
+            COMEÇO AO FIM.
+          </span>
+        </p>
+
+        <p className="fonteTijolo text-white uppercase font-light text-[16px]">
+          Criamos projetos que unem criatividade, estratégia e tecnologia para
+          fortalecer marcas, aproximar pessoas e gerar resultados.
+        </p>
+      </div>
+
       <AnimacaoEntrada
         direction="horizontal"
         reverse
@@ -22,7 +35,7 @@ export default function SocialMedias() {
       </AnimacaoEntrada>
 
       <div className="relative">
-        <ul className="list-disc list-inside text-center text-white font-medium fonteTijolo text-xl uppercase">
+        <ul className="list-disc list-inside text-center text-white font fonteTijolo text-xl uppercase italic">
           <li>Planejamento estratégico</li>
           <li>Conteúdo para redes sociais</li>
           <li>Design e Motion</li>
@@ -30,42 +43,6 @@ export default function SocialMedias() {
           <li>Copywriting</li>
           <li>Gestão de conteúdo</li>
           <li>Relatórios de desempenho</li>
-        </ul>
-      </div>
-      <div className="bg-[#DCDDC3] py-[45px] shadow-[inset_0_20px_4px_rgba(0,0,0,0.30)] border-t-2 border-b-2 mt-[30px]">
-        <Slider />
-      </div>
-
-      <h2 className="text-white fonteTijolo text-center text-xl uppercase marginPadrao">
-        CRIAMOS CAMPANHAS QUE{" "}
-        <span className="text-rosaPrincipal font-semibold underline">
-          CONECTAM,
-        </span>{" "}
-        <span className="text-amareloPrincipal underline">ENGAJAM</span> E
-        <span className="italic underline font-light"> GERAM RESULTADOS, </span>
-        transformando objetivos em experiências que movimentam pessoas.
-      </h2>
-      {/**campanhas de incentivo */}
-      <AnimacaoEntrada direction="horizontal" distance={300} duration={1.5}>
-        <Image
-          src={FitaCDI}
-          alt="Fita Campanhas de Incentivo da Ludika"
-          priority
-          className="p-3"
-        />
-      </AnimacaoEntrada>
-
-      <div className="relative">
-        <ul className="list-disc list-inside text-center text-white font-medium fonteTijolo text-xl uppercase">
-          <li>Conceito da campanha</li>
-          <li>Nome e identidade visual</li>
-          <li>Key Visual</li>
-          <li>Materiais digitais e impressos</li>
-          <li>Landing Pages</li>
-          <li>Vídeos e Motion</li>
-          <li>Comunicação Interna</li>
-          <li>Apresentações</li>
-          <li>Materiais de acompanhamento e premiação</li>
         </ul>
       </div>
     </div>
