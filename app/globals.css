@@ -22,6 +22,7 @@ body {
 :root {
   --color-rosaPrincipal: #ee2682;
   --color-amareloPrincipal: #fef120;
+  --breakpoint-mp: 330px;
 }
 
 /* ---------------- TIJOLO ---------------- */
