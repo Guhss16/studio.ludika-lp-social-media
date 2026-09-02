@@ -27,7 +27,7 @@ export default function OcupandoEspaco() {
         marca perde relevância e oportunidades.
       </p>
 
-      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] ml-[-30px] sm:ml-[-60px] lg:mt-[10px]">
+      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] sm:ml-[-60px] lg:mt-[10px]">
         <p className="text-white text-xl md:text-2xl underline">
           A boa notícia é que isso pode mudar.
         </p>
