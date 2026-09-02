@@ -14,7 +14,7 @@ export default function OcupandoEspaco() {
         </span>
       </h2>
 
-      <div className="bg-[#EE2682] flex flex-row rounded-[100px] relative border-1 border-black items-center marginPadrao md:w-[60%]">
+      <div className="bg-[#EE2682] flex flex-row rounded-[100px] relative border-1 border-black items-center marginPadrao md:w-[60%] w-[90%]">
         <div className="w-[90%] bg-[#FEF200] text-black py-[10px] border-1 rounded-[100px] text-lg">
           SUA COMUNICAÇÃO ATUAL
         </div>
