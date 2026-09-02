@@ -17,12 +17,12 @@ body {
 @theme {
   --color-rosaPrincipal: #ee2682;
   --color-amareloPrincipal: #fef120;
+  --breakpoint-mp: 380px;
   --font-swanky: "Swanky and Moo Moo", cursive;
 }
 :root {
   --color-rosaPrincipal: #ee2682;
   --color-amareloPrincipal: #fef120;
-  --breakpoint-mp: 330px;
 }
 
 /* ---------------- TIJOLO ---------------- */
