@@ -1,20 +1,18 @@
+import TituloSection from "../ui/tituloSection";
+
 export default function OcupandoEspaco() {
   return (
-    <div className="mt-[200px] text-white fonteTijolo text-center text-xl leading-[27px] flex flex-col gap-[40px] pb-4 flex flex-col items-center lg:gap-[50px]">
-      <h2
-        className="text-3xl marginPadrao
-      md:text-4xl md:w-[75%] xl:w-[45%] lg:text-5xl
-      "
-      >
+    <div className="mt-[200px] text-white text-center text-xl leading-[27px] flex flex-col gap-[40px] pb-4 flex flex-col items-center lg:gap-[50px]">
+      <TituloSection className="marginPadrao">
         Sua comunicação está{" "}
         <span className="text-[#EE2682]">gerando resultados</span> ou apenas
         <span className="text-[#FEF200] underline font-semibold">
           {" "}
           ocupando espaço?
         </span>
-      </h2>
+      </TituloSection>
 
-      <div className="bg-[#EE2682] flex flex-row rounded-[100px] relative border-1 border-black items-center marginPadrao md:w-[60%] w-[90%]">
+      <div className="bg-[#EE2682] flex flex-row rounded-[100px] relative border-1 border-black items-center marginPadrao md:w-[60%] w-[90%] fonteTijolo">
         <div className="w-[90%] bg-[#FEF200] text-black py-[10px] border-1 rounded-[100px] text-lg">
           SUA COMUNICAÇÃO ATUAL
         </div>
@@ -33,7 +31,7 @@ export default function OcupandoEspaco() {
       </p>
 
       <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] sm:ml-[-60px] lg:mt-[10px]">
-        <p className="text-white text-xl md:text-2xl underline">
+        <p className="text-white text-xl md:text-2xl underline fonteTijolo">
           A boa notícia é que isso pode mudar.
         </p>
       </div>

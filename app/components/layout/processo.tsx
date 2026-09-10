@@ -18,7 +18,7 @@ export default function Processo() {
         <Image
           src={AdesivoAviao}
           alt="Adesivo Avião Ludika"
-          className="absolute bottom-[-10%] left-[-5%] rotate-10 w-[50%]"
+          className="absolute bottom-[-10%] left-[-5%] rotate-10 w-[50%] mp:bottom-[-15%] mp:max-w-[250px]"
         />
         <Image
           src={CaneteLudika}

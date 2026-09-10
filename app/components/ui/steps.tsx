@@ -16,10 +16,10 @@ export default function StepsComp() {
 
   return (
     <div className="w-full px-4 py-20 flex items-center justify-center flex-col">
-      <h2 className="marginPadrao text-left relative mb-5 text-black font-swanky uppercase text-[40px] w-fit -rotate-[20]">
+      <h2 className="marginPadrao text-left relative mb-5 text-black font-swanky uppercase text-[33px] sm:text-4xl md:text-[40px] w-fit -rotate-[20]">
         *nosso processo*
       </h2>
-      <div className="w-full max-w-4xl flex flex-col md:flex-row md:justify-between">
+      <div className="w-full max-w-4xl flex flex-col lg:flex-row md:justify-between md:gap-5">
         {steps.map((step, index) => (
           <div
             key={index}

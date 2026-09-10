@@ -9,8 +9,8 @@ export default function TituloSection({
 }: TituloSectionProps) {
   return (
     <h2
-      className={`${className}  text-3xl marginPadrao
-      md:text-4xl md:w-[75%] xl:w-[45%] lg:text-5xl`}
+      className={`${className}  text-3xl 
+      md:text-4xl md:w-[75%] xl:w-[45%] lg:text-5xl fonteTijolo`}
     >
       {children}
     </h2>

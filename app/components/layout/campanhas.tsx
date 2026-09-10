@@ -11,6 +11,10 @@ export default function Campanhas() {
         <Slider />
       </div>
 
+      <h3 className="fonteTijolo text-white uppercase font-normal text-2xl underline text-center">
+        CAMPANHAS DE INCENTIVO
+      </h3>
+
       <h2 className="text-white fonteTijolo text-center text-xl uppercase marginPadrao">
         CRIAMOS CAMPANHAS QUE{" "}
         <span className="text-amareloPrincipal font-semibold">CONECTAM,</span>{" "}
@@ -21,15 +25,6 @@ export default function Campanhas() {
         </span>
         transformando objetivos em experiências que movimentam pessoas.
       </h2>
-      {/**campanhas de incentivo */}
-      <AnimacaoEntrada direction="horizontal" distance={300} duration={1.5}>
-        <Image
-          src={FitaCDI}
-          alt="Fita Campanhas de Incentivo da Ludika"
-          priority
-          className="p-3"
-        />
-      </AnimacaoEntrada>
 
       <div className="relative">
         <ul className="list-disc list-inside text-center text-white font fonteTijolo text-xl uppercase italic">
