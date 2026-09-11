@@ -1,4 +1,5 @@
 import TituloSection from "../ui/tituloSection";
+import TextoSection from "../ui/textSection";
 
 export default function OcupandoEspaco() {
   return (
@@ -19,7 +20,7 @@ export default function OcupandoEspaco() {
         <p className=" pr-[5px] lg:pr-0">100%</p>
       </div>
 
-      <p className=" text-lg mx-[15px] fonteNoto font-light px-[20px] max-w-[1000px]">
+      <TextoSection className="mx-[15px] px-[20px] max-w-[1000px]">
         Muitas empresas publicam nas redes sociais{" "}
         <span className="font-extrabold underline uppercase px-1">
           sem estratégia
@@ -28,9 +29,9 @@ export default function OcupandoEspaco() {
         <span className="font-extrabold underline uppercase ">não engajam</span>{" "}
         as equipes. Sem uma comunicação consistente, a marca perde relevância e
         oportunidades.
-      </p>
+      </TextoSection>
 
-      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] sm:ml-[-60px] lg:mt-[10px]">
+      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] sm:ml-[-60px] lg:mt-[20px]">
         <p className="text-white text-xl md:text-2xl underline fonteTijolo">
           A boa notícia é que isso pode mudar.
         </p>
