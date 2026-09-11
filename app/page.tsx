@@ -1,6 +1,6 @@
 import HeroSection from "./components/layout/hero";
 import OcupandoEspaco from "./components/layout/ocupandoespaco";
-import SocialMedia from "./components/layout/socialmedia";
+import SocialMedia from "./components/layout/socialMedia";
 import Processo from "./components/layout/processo";
 import CTAFinal from "./components/layout/ctaFinal";
 import Footer from "./components/layout/footer";
