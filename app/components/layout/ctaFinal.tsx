@@ -7,7 +7,7 @@ export default function CTAFinal() {
   return (
     <div className="flex flex-col mt-[80px] sm:mt-[120px]">
       <div>
-        <h2 className=" bg-black fonteTijolo py-1 text-white uppercase text-center">
+        <h2 className="bg-black fonteTijolo py-1 text-white uppercase text-center">
           Soluções ideais para empresas que desejam:
         </h2>
         <div className="bg-rosaPrincipal py-[5px]">
@@ -27,8 +27,11 @@ export default function CTAFinal() {
           />
         </div>
       </div>
-      <div className="marginPadrao pt-[30px] sm:pt-[30px] lg:pt-[60px] flex flex-col gap-[20px] sm:gap-[30px] lg:gap-[40px] 2xl:gap-[50px] lg:text-center lg:items-center">
-        <h2 className="font-swanky text-white -rotate-3 pb-[10px] text-5xl sm:text-5xl 2xl:text-6xl">
+      <div className="marginPadrao sm:pt-[40px] lg:pt-[60px] flex flex-col gap-[20px] sm:gap-[35px] lg:gap-[40px] xl:gap-[50px] lg:text-center lg:items-center">
+        <h2
+          className="font-swanky text-white -rotate-3
+        text-4xl md:text-6xl sm:text-5xl xl:text-7xl"
+        >
           Vamos{" "}
           <span className="text-rosaPrincipal">
             <span className=" underline decoration-2">Conversar</span> ?
@@ -44,12 +47,13 @@ export default function CTAFinal() {
           está pronta para dar o primeiro passo com você.
         </TextoSection>
         <AnimatedText
-          text="Vamos movimentar sua marca."
+          text="Vamos movimentar sua marca!"
           typingSpeed={50}
-          className="text-white uppercase tracking-[2px] fonteTijolo sm:font-semibold text-2xl"
+          className="text-white uppercase tracking-[2px] fonteTijolo sm:font-semibold text-2xl md:text-3xl"
         />
         <BotaoPadrao
-          className="lg:px-[40px] lg:py-[15px] lg:text-xl"
+          className="md:px-[30px] md:py-[20px] lg:px-[40px] lg:py-[15px] 
+          md:text-2xl lg:text-xl"
           text="Falar com a Ludika!"
         />
       </div>
