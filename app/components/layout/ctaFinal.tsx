@@ -1,9 +1,11 @@
 import ListaInfinita from "../ui/listaInfinita";
 import BotaoPadrao from "../ui/button";
+import TextoSection from "../ui/textSection";
+import AnimatedText from "../ui/animatedText";
 
 export default function CTAFinal() {
   return (
-    <div className="flex flex-col mt-[80px]">
+    <div className="flex flex-col mt-[80px] sm:mt-[120px]">
       <div>
         <h2 className=" bg-black fonteTijolo py-1 text-white uppercase text-center">
           Soluções ideais para empresas que desejam:
@@ -25,23 +27,31 @@ export default function CTAFinal() {
           />
         </div>
       </div>
-      <div className="marginPadrao mt-[20px] flex flex-col gap-[10px]">
-        <h2 className="font-swanky text-white text-[40px] -rotate-3 pb-[10px]">
+      <div className="marginPadrao pt-[30px] sm:pt-[30px] lg:pt-[60px] flex flex-col gap-[20px] sm:gap-[30px] lg:gap-[40px] 2xl:gap-[50px] lg:text-center lg:items-center">
+        <h2 className="font-swanky text-white -rotate-3 pb-[10px] text-5xl sm:text-5xl 2xl:text-6xl">
           Vamos{" "}
           <span className="text-rosaPrincipal">
             <span className=" underline decoration-2">Conversar</span> ?
           </span>
         </h2>
-        <p className="text-white fonteTijolo font-light text-xl">
-          Grandes resultados costumam começar com uma boa estratégia. Se você
-          quer fortalecer sua marca, engajar sua equipe ou desenvolver uma
-          comunicação mais eficiente, a Ludika está pronta para dar o primeiro
-          passo com você.
-        </p>
-        <h3 className="text-white tracking-tight uppercase fonteTijolo font-semibold text-[22px]">
-          Vamos movimentar sua marca.
-        </h3>
-        <BotaoPadrao text="Falar com a Ludika!" />
+        <TextoSection className="text-white lg:max-w-[800px]">
+          Grandes resultados costumam começar com uma boa estratégia.
+          <br className="hidden sm:block" /> Se você quer fortalecer sua marca,
+          engajar sua equipe ou desenvolver uma comunicação mais eficiente, a{" "}
+          <strong className="uppercase fonteTijolo underline text-amareloPrincipal">
+            Ludika
+          </strong>{" "}
+          está pronta para dar o primeiro passo com você.
+        </TextoSection>
+        <AnimatedText
+          text="Vamos movimentar sua marca."
+          typingSpeed={50}
+          className="text-white uppercase tracking-[2px] fonteTijolo sm:font-semibold text-2xl"
+        />
+        <BotaoPadrao
+          className="lg:px-[40px] lg:py-[15px] lg:text-xl"
+          text="Falar com a Ludika!"
+        />
       </div>
     </div>
   );
