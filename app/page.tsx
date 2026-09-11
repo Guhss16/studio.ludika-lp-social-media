@@ -1,6 +1,6 @@
 import HeroSection from "./components/layout/hero";
 import OcupandoEspaco from "./components/layout/ocupandoespaco";
-import SocialMedia from "./components/layout/socialmedia";
+import Servicos from "./components/layout/servicos";
 import Processo from "./components/layout/processo";
 import CTAFinal from "./components/layout/ctaFinal";
 import Footer from "./components/layout/footer";
@@ -11,7 +11,7 @@ export default function Home() {
     <div className="py-[40px]">
       <HeroSection />
       <OcupandoEspaco />
-      <SocialMedia />
+      <Servicos />
       <Campanhas />
       <Processo />
       <CTAFinal />
