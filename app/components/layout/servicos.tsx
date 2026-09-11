@@ -1,6 +1,6 @@
 import TituloSection from "../ui/tituloSection";
 
-export default function SocialMedia() {
+export default function Servicos() {
   return (
     <div className="flex flex-col items-center gap-[40px] mt-[50px] text-center marginPadrao">
       <TituloSection className="text-center uppercase bg-black text-rosaPrincipal box-decoration-clone px-4 py-2 font-semibold max-w-[400px]">
