@@ -27,7 +27,7 @@ export default function CTAFinal() {
           />
         </div>
       </div>
-      <div className="marginPadrao sm:pt-[40px] lg:pt-[60px] flex flex-col gap-[20px] sm:gap-[35px] lg:gap-[40px] xl:gap-[50px] lg:text-center lg:items-center">
+      <div className="marginPadrao pt-[40px] sm:pt-[40px] lg:pt-[60px] flex flex-col gap-[20px] sm:gap-[35px] lg:gap-[40px] xl:gap-[50px] lg:text-center lg:items-center">
         <h2
           className="font-swanky text-white -rotate-3
         text-4xl md:text-6xl sm:text-5xl xl:text-7xl"
