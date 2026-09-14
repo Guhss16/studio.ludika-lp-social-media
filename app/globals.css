@@ -18,6 +18,12 @@ body {
   --color-rosaPrincipal: #ee2682;
   --color-amareloPrincipal: #fef120;
   --breakpoint-mp: 380px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-fs: 1700px;
   --font-swanky: "Swanky and Moo Moo", cursive;
 }
 :root {

@@ -16,10 +16,10 @@ export default function StepsComp() {
 
   return (
     <div className="w-full px-4 py-20 flex items-center justify-center flex-col">
-      <h2 className="marginPadrao text-left relative mb-5 text-black font-swanky uppercase text-[33px] sm:text-4xl md:text-[40px] w-fit -rotate-[20]">
+      <h2 className="marginPadrao text-left relative mb-5 text-black font-swanky uppercase text-[33px] sm:text-4xl md:text-5xl lg:text-6xl w-fit -rotate-[20]">
         *nosso processo*
       </h2>
-      <div className="w-full max-w-4xl flex flex-col lg:flex-row md:justify-between md:gap-5">
+      <div className="w-full max-w-4xl flex flex-col md:justify-between gap-3 sm:gap-5">
         {steps.map((step, index) => (
           <div
             key={index}
@@ -31,51 +31,14 @@ export default function StepsComp() {
             </div>
 
             {/* texto */}
-            <div className="mt-2 text-center md:mt-4 flex flex-col">
-              <div className="text-[25px] font-semibold text-gray-10 font-swanky tracking-[5] underline">
+            <div className="mt-2 text-center md:mt-4 flex flex-col gap-2]">
+              <div className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-10 font-swanky tracking-[5] underline">
                 {step.title}
               </div>
-              <div className="text-[16px] text-gray-10 fonteTijolo font-light">
+              <div className="text-base sm:text-lg lg:text-xl text-gray-10 fonteTijolo font-light">
                 {step.description}
               </div>
             </div>
-
-            {/* seta para próxima etapa */}
-            {index < steps.length - 1 && (
-              <>
-                {/* Mobile: seta para baixo */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="md:hidden w-6 h-6 text-rosaPrincipal my-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 4v16m0 0l-6-6m6 6l6-6"
-                  />
-                </svg>
-
-                {/* Desktop: seta para direita */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="hidden md:block absolute top-5 left-full w-6 h-6 text-rosaPrincipal"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4 12h16m0 0l-6-6m6 6l-6 6"
-                  />
-                </svg>
-              </>
-            )}
           </div>
         ))}
       </div>
