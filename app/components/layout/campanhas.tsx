@@ -7,7 +7,7 @@ export default function Campanhas() {
         CAMPANHAS DE INCENTIVO
       </h3>
 
-      <p className="fonteNoto text-white uppercase font-normal text-lg max-w-[70%]">
+      <p className="fonteNoto text-white uppercase font-normal text-lg lg:max-w-[70%]">
         conectar, engajar e gerar resultados. transformando objetivos em
         experiências.
       </p>
