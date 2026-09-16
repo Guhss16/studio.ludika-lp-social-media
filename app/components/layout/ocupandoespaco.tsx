@@ -3,7 +3,7 @@ import TextoSection from "../ui/textSection";
 
 export default function OcupandoEspaco() {
   return (
-    <div className="mt-[200px] lg:mt-[100px] text-white text-center text-xl leading-[27px] flex flex-col gap-[40px] pb-4 flex flex-col items-center lg:gap-[50px] xl:gap-[60px]">
+    <div className="mt-[140px] xl:mt-[120px] lg:mt-[450px] text-white text-center text-xl leading-[27px] flex flex-col gap-[40px] pb-4 flex flex-col items-center lg:gap-[50px] xl:gap-[60px] sm:mt-[300px]">
       <TituloSection className="marginPadrao">
         Sua comunicação está{" "}
         <span className="text-[#EE2682]">gerando resultados</span> ou apenas
