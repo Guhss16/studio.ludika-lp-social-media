@@ -44,7 +44,7 @@ export default function HeroSection() {
         </div>
         <Chaveiros
           className="absolute left-1/2 -translate-x-1/2 -bottom-25 sm:-bottom-60 md:-bottom-70 lg:-bottom-100
-        xl:left-auto xl:-right-20 2xl:right-0 xl:translate-x-0 xl:top-20 xl:rotate-30 lg:w-[500px]"
+        xl:left-auto xl:-right-20 2xl:right-0 xl:translate-x-0 xl:top-20 xl:rotate-30 xl:w-[500px]"
         />
       </div>
     </div>
