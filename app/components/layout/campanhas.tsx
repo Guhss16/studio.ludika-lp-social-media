@@ -2,7 +2,7 @@ import ListItem from "../ui/listItem";
 
 export default function Campanhas() {
   return (
-    <div className="flex flex-col justify-center overflow-hidden gap-[20px] items-center mt-[50px] marginPadrao text-center mb-[80px]">
+    <div className="flex flex-col justify-center overflow-hidden gap-[20px] items-center mt-[40px] marginPadrao text-center mb-[80px]">
       <h3 className="fonteTijolo text-amareloPrincipal uppercase font-normal text-3xl underline bg-black w-fit px-4 py-2 box-decoration-clone -rotate-2 mt-4 mb-5 shadow-xl">
         CAMPANHAS DE INCENTIVO
       </h3>
@@ -13,7 +13,7 @@ export default function Campanhas() {
       </p>
 
       <div className="relative flex flex-col items-center">
-        <ul className="columns-1 lg:columns-2 list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-lg uppercase italic marker:text-rosaPrincipal w-fit">
+        <ul className="columns-1 lg:columns-2 list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-base lg:text-lg uppercase italic marker:text-rosaPrincipal w-fit">
           <ListItem>
             <span className="text-rosaPrincipal">➜</span> Conceito da campanha
           </ListItem>
@@ -41,7 +41,7 @@ export default function Campanhas() {
             <span className="text-rosaPrincipal">➜</span> Apresentações
           </ListItem>
         </ul>
-        <ul className="list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-lg uppercase italic marker:text-rosaPrincipal">
+        <ul className="list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-base lg:text-lg uppercase italic marker:text-rosaPrincipal">
           <ListItem>
             <span className="text-rosaPrincipal">➜</span> Materiais de
             acompanhamento e premiação

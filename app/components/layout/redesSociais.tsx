@@ -16,7 +16,7 @@ export default function Servicos() {
           Criatividade para fortalecer marcas e gerar resultados.
         </p>
         <div className="relative">
-          <ul className="columns-1 lg:columns-2 list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-lg uppercase italic marker:text-rosaPrincipal">
+          <ul className="columns-1 lg:columns-2 list-inside text-center text-black fonteNoto gap-0 tracking-[2px] text-base lg:text-lg uppercase italic marker:text-rosaPrincipal">
             <ListItem>
               <span className="text-rosaPrincipal">➜</span> Copywriting
             </ListItem>
@@ -38,7 +38,7 @@ export default function Servicos() {
             </ListItem>
           </ul>
           <ul>
-            <ListItem className="bg-[#DCDDC3] p-2 border-2 border-black shadow-lg  list-inside text-center text-black fonteNoto tracking-[2px] text-lg uppercase italic marker:text-rosaPrincipal">
+            <ListItem className="bg-[#DCDDC3] p-2 border-2 border-black shadow-lg  list-inside text-center text-black fonteNoto tracking-[2px] text-base lg:text-lg uppercase italic marker:text-rosaPrincipal">
               <span className="text-rosaPrincipal">➜</span> Relatórios de
               desempenho
             </ListItem>
