@@ -67,17 +67,17 @@ export const Slider = () => {
 
         {/* Scrolling images container */}
         <div className="relative z-10 w-full flex items-center justify-center">
-          <div className="scroll-container w-full max-w-6xl">
-            <div className="infinite-scroll flex gap-6 w-max">
+          <div className="scroll-container w-full max-w-6xl lg:max-w-[1400px]">
+            <div className="infinite-scroll flex gap-6 w-max py-[40px]">
               {duplicatedImages.map((image, index) => (
                 <div
                   key={index}
-                  className="image-item flex-shrink-0 w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 border-2 border-black overflow-hidden shadow-2xl"
+                  className="image-item flex-shrink-0 w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 border-2 border-black overflow-hidden shadow-[0px_25px_18px_-3px_rgba(0,_0,_0,_0.45)]"
                 >
                   <img
                     src={image}
                     alt={`Gallery image ${(index % images.length) + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover "
                     loading="lazy"
                   />
                 </div>
