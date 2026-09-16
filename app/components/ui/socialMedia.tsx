@@ -5,19 +5,21 @@ import SiteIcon from "@/public/assets/Site-Icon";
 type SocialMediasProps = {
   circleColor?: string;
   iconColor?: string;
-  size?: number; // controla o tamanho do círculo (ícone)
+  size?: number;
+  className?: string;
 };
 
 export default function SocialMedias({
   circleColor = "#FEF200",
   iconColor = "#EB2782",
   size = 60,
+  className = "",
 }: SocialMediasProps) {
   const linkClass =
     "hover:scale-110 transition-transform duration-300 cursor-pointer flex items-center justify-center";
 
   return (
-    <div className="grid grid-cols-3 gap-5 w-fit">
+    <div className={`grid grid-cols-3 gap-5 w-fit ${className}`}>
       <a
         href="https://studioludika.com.br"
         target="_blank"
