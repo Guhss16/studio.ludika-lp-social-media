@@ -3,7 +3,7 @@ import ListItem from "../ui/listItem";
 export default function Campanhas() {
   return (
     <div className="flex flex-col justify-center overflow-hidden gap-[20px] items-center mt-[40px] marginPadrao text-center mb-[80px]">
-      <h3 className="fonteTijolo text-amareloPrincipal uppercase font-normal text-3xl underline bg-black w-fit px-4 py-2 box-decoration-clone -rotate-2 mt-4 mb-5 shadow-xl">
+      <h3 className="fonteTijolo text-gray uppercase font-normal text-3xl underline bg-amareloPrincipal w-fit px-4 py-2 box-decoration-clone -rotate-2 mt-4 mb-5 shadow-xl">
         CAMPANHAS DE INCENTIVO
       </h3>
 

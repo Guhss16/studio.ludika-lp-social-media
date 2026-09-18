@@ -4,12 +4,12 @@ import ListItem from "../ui/listItem";
 export default function Servicos() {
   return (
     <div className="flex flex-col items-center gap-[60px] lg:gap-[80px] mt-[40px] lg:mt-[120px] text-center marginPadrao">
-      <TituloSection className="text-center uppercase bg-black text-rosaPrincipal box-decoration-clone px-4 py-2 font-semibold w-fit lg:max-w-[70%] xl:max-w-[100%] shadow-xl">
+      <TituloSection className="text-center uppercase text-rosaPrincipal box-decoration-clone px-4 py-2 font-semibold w-fit lg:max-w-[70%] xl:max-w-[100%]">
         Comunicação com Estratégia do Planejamento a Entrega.
       </TituloSection>
 
       <div className="flex flex-col gap-[10px] items-center">
-        <h3 className="fonteTijolo text-amareloPrincipal uppercase font-normal text-3xl underline bg-black w-fit px-4 py-2 box-decoration-clone -rotate-2 mb-5 shadow-xl">
+        <h3 className="fonteTijolo text-gray uppercase font-normal text-3xl underline bg-amareloPrincipal w-fit px-4 py-2 box-decoration-clone -rotate-2 mb-5 shadow-xl">
           REDES SOCIAIS
         </h3>
         <p className="fonteNoto text-white uppercase font-normal text-lg">

@@ -31,7 +31,7 @@ export default function OcupandoEspaco() {
         oportunidades.
       </TextoSection>
 
-      <div className="bg-[#383D38] border-1 border-white rotate-357 p-3 w-[120%] lg:mt-[20px]">
+      <div className="bg-rosaPrincipal border-1 border-white rotate-357 p-3 w-[120%] lg:mt-[20px]">
         <p className="text-white text-xl md:text-2xl underline fonteTijolo">
           A boa notícia é que isso pode mudar.
         </p>

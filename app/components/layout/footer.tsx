@@ -13,9 +13,9 @@ const defaultNavItemsFooter: NavItem[] = [
 
 export default function Footer() {
   return (
-    <footer className="pt-[40px] bg-[#383D38] mt-[50px] border-t-2">
+    <footer className="pt-[40px] bg-transparent mt-[50px]">
       {" "}
-      <div className="flex flex-col justify-center items-center gap-[30px]">
+      <div className="flex flex-col justify-center items-center gap-[30px] ">
         {/*Logo*/}
         <a
           className="cursor-pointer bg-[#DCDDC3] py-2 px-4 rounded-full shadow-[0px_25px_16px_-3px_rgba(0,_0,_0,_0.45)]"
@@ -31,7 +31,7 @@ export default function Footer() {
             <a
               key={item.href}
               href={item.href}
-              className="relative text-white uppercase fonteTijolo font-normal  text-[16px] transition-colors duration-200 group underline tracking-[2px]"
+              className="relative text-white uppercase fonteTijolo font-semibold  text-[16px] transition-colors duration-200 group underline tracking-[2px]"
             >
               {item.label}
               <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-0 h-px bg-[#e72579] transition-all duration-300 group-hover:w-full" />{" "}
@@ -44,7 +44,7 @@ export default function Footer() {
         {/*Politica de Privacidade */}
         <a
           href=""
-          className="fonteTijolo font-normal text-white uppercase text-[16px] transition-colors duration-200 group underline tracking-[2px]"
+          className="fonteTijolo font-semibold text-white uppercase text-[16px] transition-colors duration-200 group underline tracking-[2px]"
         >
           Politica de Privacidade
         </a>

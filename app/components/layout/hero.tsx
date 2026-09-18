@@ -1,7 +1,11 @@
+"use client";
+
 import IconLudikaBorda from "@/public/assets/LogoLudikaBorda";
 import SocialMedias from "../ui/socialMedia";
 import Chaveiros from "./chaveiros";
 import BotaoPadrao from "../ui/button";
+import LogoLudika from "@/public/assets/LogoLudika";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
@@ -13,7 +17,7 @@ export default function HeroSection() {
       >
         {/*HEADER*/}
         <div className="flex flex-row justify-between items-center gap-[40px] pb-[40px]">
-          <IconLudikaBorda color="black" size={75} />
+          <LogoLudika width={150} color1="black" />
           <div className="h-[2px] w-full bg-black" />
         </div>
 
